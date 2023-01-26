@@ -11,6 +11,6 @@
 
 function passwordGenerator(userInput: string): string {
 
-
+    if(!userInput) return;
     return 'passwordGenerated';
 }
